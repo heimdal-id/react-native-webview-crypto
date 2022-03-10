@@ -1,8 +1,9 @@
 {
-  "name": "react-native-webview-crypto",
-  "version": "0.0.25",
+  "name": "@heimdal-id/react-native-webview-crypto",
+  "version": "0.0.28",
   "license": "MIT",
   "repository": "https://github.com/heimdal-id/react-native-webview-crypto",
+  "description": "React native wrapper for the crypto polyfil in a webview ",
   "keywords": [
     "crypto",
     "webcrypto",
@@ -12,7 +13,7 @@
   "dependencies": {
     "encode-utf8": "^1.0.2",
     "fast-base64-encode": "^1.0.0",
-    "webview-crypto": "https://github.com/heimdal-id/webview-crypto.git#bd2e6854c38c807fef07cb030830e677489c69dc"
+    "@heimdal-id/webview-crypto": "0.1.13"
   },
   "peerDependencies": {
     "react": ">=16.4",

@@ -1,7 +1,7 @@
-const React = require("react");
-const { StyleSheet, View, Platform } = require("react-native");
-const { WebView } = require("react-native-webview");
-const { MainWorker, webViewWorkerString } = require("webview-crypto");
+import React from "react";
+import { StyleSheet, View, Platform } from "react-native";
+import { WebView } from "react-native-webview";
+import { MainWorker, webViewWorkerString } from "@heimdal-id/webview-crypto";
 
 const styles = StyleSheet.create({
   hide: {
